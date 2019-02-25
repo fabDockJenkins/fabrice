@@ -10,9 +10,15 @@ pipeline {
     }
      stage('TEST') {
       steps {
-        echo 'TEST 1'
-        echo 'TEST 2'
-        echo 'TEST 3'
+        step  {
+          echo 'TEST 1'
+              }
+         step  {
+           echo 'TEST 2'
+              }
+         step  {
+           echo 'TEST 3'
+              }
       }
     }
   }
