@@ -4,15 +4,14 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Fabrice 1'
-        echo 'yoo'
-      }
-      steps {
         echo 'Fabrice 2'
-        echo 'yoo'
-      }
-      steps {
         echo 'Fabrice 3'
-        echo 'yoo'
+      }
+     stage('TEST') {
+      steps {
+        echo 'TEST 1'
+        echo 'TEST 2'
+        echo 'TEST 3'
       }
     }
   }
