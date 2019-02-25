@@ -7,6 +7,7 @@ pipeline {
         echo 'Fabrice 2'
         echo 'Fabrice 3'
       }
+    }
      stage('TEST') {
       steps {
         echo 'TEST 1'
@@ -15,4 +16,4 @@ pipeline {
       }
     }
   }
-}
+
