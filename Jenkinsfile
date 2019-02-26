@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'Fabrice 1'
         echo 'Fabrice 2'
-        echo 'Fabrice 3'
+        echo 'Fabrice 4'
       }
     }
      stage('TEST') {
