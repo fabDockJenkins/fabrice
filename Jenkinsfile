@@ -12,7 +12,7 @@ pipeline {
       steps {
         echo 'TEST 1'
         echo 'HELP 2'
-        echo 'TEST 3'
+        echo 'Help 3'
       }
     }
   }
